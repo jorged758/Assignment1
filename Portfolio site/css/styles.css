@@ -1,0 +1,95 @@
+header {
+    background: #1c5d85;
+    color: #eff0f3;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav ul li {
+    margin: 30px 20px;
+}
+
+#nav ul li a {
+    color: #eff0f3;
+    text-decoration: none;
+}
+
+#nav ul li:hover a,
+#nav ul li.active a {
+    border-bottom: 5px solid #8ebe33;
+    font-weight: 600;
+}
+
+footer {
+    background: #1c5d85;
+    color: #eff0f3;
+}
+
+footer .container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.homepage .page_content {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.homepage .title {
+    text-align: left;
+    color: #8ebe33;
+}
+
+.homepage img {
+    width: 50%;
+    border-radius: 160px;
+}
+
+.title {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.formulario-contacto,
+.about_me {
+    margin-bottom: 2.4rem;
+}
+
+.projects {
+    margin-bottom: 2.45rem;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.formulario-contacto input[type="checkbox"] {
+    width: auto;
+}
+
+.boton input[type="submit"] {
+    margin-top: 2rem;
+    background: #1c5d85;
+    color: #eff0f3;
+    font-weight: 600;
+    border: 1px solid #1c5d85;
+    height: 3rem;
+}
+
+span {
+    line-height: 1.565;
+}
+
+.about_me video {
+    width: 100%;
+    height: auto;
+}
